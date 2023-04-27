@@ -1,0 +1,49 @@
+/* Apply styles to the body */
+body {
+    background-image: url('background.jpg');
+    font-family: 'My Custom Font', sans-serif;
+  }
+  
+  /* Apply styles to the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the h1 heading */
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  /* Apply styles to the main content area */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the paragraphs */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Apply styles to the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Import the custom font */
+  @font-face {
+    font-family: 'My Custom Font';
+    src: url('mycustomfont.woff2') format('woff2'),
+         url('mycustomfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Kratos;
+    src: url();
+}
+/* Apply styles to the body */
+body {
+	margin: 0;
+	padding: 0;
+	background: url('god\ of\ war2.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+  
+  /* Apply styles to the header */
+  
+  
+  /* Style the h1 heading */
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  header nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Apply styles to the navigation links */
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: all 0.3s ease;
+  }
+  
+  /* Apply hover styles to the navigation links */
+  header nav a:hover {
+    color: #f00;
+  }
+  
+  /* Apply styles to the main content area */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the paragraphs */
+  p {
+    font-size: 18px;
+    color: #070101;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Apply styles to the footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: none;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+  header {
+    background-color: none;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the h1 heading */
+  h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Apply styles to the navigation */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Style the login/sign up link */
+  .login-signup {
+    margin-left: auto;
+  }
+  .login-signup:hover {
+    background-color: #251f1f;
+    color: rgb(246, 243, 243);
+  }
+  
+  .login-signup a {
+    background-color: rgb(249, 249, 249);
+        color: #110909;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        font-weight: 400;
+        cursor: pointer;
+        transition: all 0.3s ease;
+  }
+  
+
+
+  

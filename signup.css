@@ -1,0 +1,277 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url('kratos.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.anthem-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .anthem-section h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.singup-box {
+	width: 280px;
+	padding: 40px;
+	background: rgba(196, 37, 37, 0.859);
+	color: #141111;
+	font-weight: 500;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	animation: fade 1s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.signup-box h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	margin-bottom: 40px;
+	letter-spacing: 2px;
+	color: #0b0a0a;
+	font-family: 'Oswald', sans-serif;
+}
+
+.signup-box form {
+	display: flex;
+	flex-direction: column;
+}
+
+.user-box {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.user-box input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #201b1b;
+	border: none;
+	border-bottom: 1px solid #333;
+	background: transparent;
+	outline: none;
+}
+
+.user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 16px;
+	color: #231f1f;
+	pointer-events: none;
+	transition: .5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+	top: -20px;
+	left: 0;
+	color: #95a0a5;
+	font-size: 12px;
+}
+
+a {
+	position: relative;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	background: transparent;
+	border: 1px solid #333;
+	transition: .5s;
+}
+
+a:hover {
+	background: #615f5f;
+	color: #1f1b1b;
+}
+
+a span {
+	position: absolute;
+	display: block;
+}
+
+a span:nth-child(1) {
+	top: 0;
+	left: -1px;
+	width: 1px;
+	height: 100%;
+	background: linear-gradient(to bottom, transparent, #333);
+	animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+	0% {
+		height: 0;
+	}
+	100% {
+		height: 100%;
+	}
+}
+
+a span:nth-child(2) {
+	top: -1px;
+	right: 0;
+	width: 100%;
+	height: 1px;
+	background: linear-gradient(to right, transparent, #333);
+	animation: animate2 1s linear infinite;
+	animation-delay: .2s;
+}
+
+/* Fonts */
+
+h2, label {
+	font-family: 'Oswald', sans-serif;
+}
+
+input[type="submit"] {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.4);
+    border: none;
+    padding: 10px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #5a7158;
+}
+
+.btn-signup {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-signup:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .container {
+    background-color: rgba(111, 2, 2, 0.859);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  .btn:hover {
+    background-color: #da2c2c;
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+  }
